@@ -3,16 +3,21 @@ export default {
 	setup() {
 		return {
 			bios: [
-				{
+			{
 					id: 1,
-					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-				},
+					bio:'Goooood Day!'
+			},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						' My name is Kartik Chaudhari. I just finished my third year at McMaster University in the field of Software Engineering. I am currently on my internship period and have gained some valuable skills over the years through academic courses and internships experiences. I like learning something new everyday. But what I love is implementing them! Haha :) Just like this website! On Weekends I usually participate in Hackathons and in my free time I like doing leetcode problems! (apart from Netflix obviously) '
 				},
+				{
+					id: 3,
+					bio:
+						'Apart from a bunch of technical experience, I also have strong leadership skills and a good ability to communicate ideas. I have been the Head Boy of my school and have also been a Vice President for a Software Club at McMaster University. I have also been a Teaching Assistant and a Research Assistant in the field of software which have deepened my understanding of not only technical but soft skills as well. '
+				},
+
 			],
 		};
 	},
@@ -24,7 +29,7 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profile.jpeg"
+				src="@/assets/images/profile.jpg"
 				class="rounded-xl w-96"
 				alt=""
 			/>

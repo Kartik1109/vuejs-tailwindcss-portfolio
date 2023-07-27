@@ -1,13 +1,5 @@
 <script>
-export default {
-	data: () => {
-		return {
-			copyrightDate: new Date().getFullYear(),
-			projectName: 'Vue.js & Tailwind CSS Portfolio',
-			author: 'Stoman',
-		};
-	},
-};
+
 </script>
 
 <template>
@@ -15,7 +7,7 @@ export default {
 		<div
 			class="font-general-regular text-lg text-ternary-dark dark:text-ternary-light"
 		>
-			&copy; {{ copyrightDate }}.
+			
 			<a
 				href="https://github.com/realstoman/vuejs-tailwindcss-portfolio"
 				target="__blank"
@@ -23,7 +15,7 @@ export default {
 			>
 				{{ projectName }}
 			</a>
-			. Developed by
+			
 			<a
 				href="https://stoman.me"
 				target="__blank"
